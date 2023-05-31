@@ -2,6 +2,8 @@ package main
 
 import (
 	context "context"
+	"fmt"
+	"github.com/a1424132610/go_common/config"
 	"github.com/a1424132610/go_pass/pod/proto/pod"
 	"github.com/asim/go-micro/v3"
 	"github.com/asim/go-micro/v3/logger"
@@ -25,10 +27,17 @@ func main() {
 		micro.Name("example"),
 		micro.Registry(consulRegistry),
 	)
+	config, err := config.NewConsulConfig(
+		"192.168.254.130", 8500, "/micro/config",
+	).GetConfig()
+	if err != nil {
+		logger.Error(err)
+	}
+	fmt.Println(config)
 	pod.RegisterGreeterHandler(service.Server(), new(Pod))
 	// 初始化服务
 	service.Init()
-	err := service.Run()
+	err = service.Run()
 	if err != nil {
 		logger.Error(err)
 	}

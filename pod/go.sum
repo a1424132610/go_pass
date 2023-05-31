@@ -54,6 +54,8 @@ github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7 h1:YoJbenK9C6
 github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7/go.mod h1:z4/9nQmJSSwwds7ejkxaJwO37dru3geImFUdJlaLzQo=
 github.com/Shopify/sarama v1.19.0/go.mod h1:FVkBWblsNy7DGZRfXLU0O9RCGt5g3g3yEuWXgklEdEo=
 github.com/Shopify/toxiproxy v2.1.4+incompatible/go.mod h1:OXgGpZ6Cli1/URJOF1DMxUHB2q5Ap20/P/eIdh4G0pI=
+github.com/a1424132610/go_common/config v0.0.0-20230531073015-64941e2e21f7 h1:ZZd0ltjqChCdOAvkgVLhXVCGZgXdpcT3zWA8P6nC9SA=
+github.com/a1424132610/go_common/config v0.0.0-20230531073015-64941e2e21f7/go.mod h1:YNWqZJE8+N9LOa5Zr05pX0Om/e3YV+BI5A5u4QApq9U=
 github.com/a1424132610/go_pass/common/config v0.0.0-20230531070101-630b2b659335 h1:4WbHD8/3DK3pBmRS/Z+5P4uIOtubUT/93kcJom6rh2I=
 github.com/a1424132610/go_pass/common/config v0.0.0-20230531070101-630b2b659335/go.mod h1:wf61rooFg4hgxHPGigo/yyHcRsJQ3lVxRSXiHVtOpR4=
 github.com/acomagu/bufpipe v1.0.3 h1:fxAGrHZTgQ9w5QqVItgzwj235/uYZYgbXitB+dLupOk=
